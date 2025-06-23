@@ -1,0 +1,17 @@
+setx = {"green", "blue"}
+sety = {"blue", "yellow"}
+print("original set elements: ")
+print(setx)
+print(sety)
+print("\nIntersection of 2 said sets: ")
+setz = setx.intersection(sety)
+print(setz)
+seta = setx.union(sety)
+print("union of 2 said sets: ")
+print(seta)
+setb = setx.difference(sety)
+print("difference of 2 said sets: ")
+print(setb)
+setc = setx.symmetric_difference(sety)
+print("symetric difference of 2 said sets: ")
+print(setc)
